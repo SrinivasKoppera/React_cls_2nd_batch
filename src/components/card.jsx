@@ -2,6 +2,12 @@ import { Component } from "react";
 import homeImage from "../../public/img.jpeg";
 
 class Card extends Component {
+  incrementCounter() {
+    this.setState((prevState) => ({
+      counter: prevState.counter + 1,
+    }));
+  }
+
   render() {
     console.log(this.props);
     return (
