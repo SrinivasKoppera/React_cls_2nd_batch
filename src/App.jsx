@@ -16,24 +16,18 @@
 
 // export default App;
 import { Component } from "react";
-import Card from "./components/card";
-import React, { Fragment } from "react";
+
+import React from "react";
+// import Counter from "./components/counter";
+// import ParentComponent from "./components/lifecycle-methods/parent-component";
+// import Parent from "./functional-based-components/components/parent";
+import Home from "./functional-based-components/components/home";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <h1>Counter Application</h1>
-          <Card title="Card 1" description="This is card 1" />
-          <Card title="Card 2" description="This is card 2" />
-          <Card title="Card 3" description="This is card 3" />
-          <Card title="Card 4" description="This is card 4" />
-          <Card title="Card 5" description="This is card 5" />
-          <Card title="Card 6" description="This is card 6" />
-          <Card />
-        </div>
-        <div></div>
+        <Home />
       </React.Fragment>
     );
   }
