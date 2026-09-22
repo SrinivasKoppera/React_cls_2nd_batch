@@ -21,13 +21,14 @@ import React from "react";
 // import Counter from "./components/counter";
 // import ParentComponent from "./components/lifecycle-methods/parent-component";
 // import Parent from "./functional-based-components/components/parent";
-import Home from "./functional-based-components/components/home";
-
+// import Home from "./functional-based-components/components/home";
+// import ParentComponent from "./API/parent-component";
+import Form from "./forms/form";
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Home />
+        <Form />
       </React.Fragment>
     );
   }
