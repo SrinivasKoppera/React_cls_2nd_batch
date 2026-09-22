@@ -23,12 +23,13 @@ import React from "react";
 // import Parent from "./functional-based-components/components/parent";
 // import Home from "./functional-based-components/components/home";
 // import ParentComponent from "./API/parent-component";
-import Form from "./forms/form";
+// import Form from "./forms/form";
+import MainComponent from "./Context/main-com";
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Form />
+        <MainComponent />
       </React.Fragment>
     );
   }
